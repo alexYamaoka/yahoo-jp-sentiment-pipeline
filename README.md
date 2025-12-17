@@ -25,7 +25,7 @@ Data source: https://news.yahoo.co.jp/
 
 <img src="assets/dashboard_1.png" alt="architecture diagram" width="900">
 <img src="assets/dashboard_2.png" alt="architecture diagram" width="900">
-
+<img src="assets/dashboard_3.png" alt="architecture diagram" width="900">
 
 
 ---
