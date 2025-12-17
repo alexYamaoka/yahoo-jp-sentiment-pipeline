@@ -116,7 +116,7 @@ CATEGORIES = [
 
 **Index Rationale:**
 - **Unique indexes** prevent duplicate entries during scraping
-- **Partial indexes** on `processed: false` reduce index size by ~80% after initial processing
+- **Partial indexes** on `processed: false` reduce index size proportional to the number of matching documents, often dramatically smaller than a full index after most documents are processed.
 - **Compound index** on comments ensures no duplicate comments from the same user at the same time
 - **article_id lookup** is implicit in the compound index for fast comment retrieval
 
