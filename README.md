@@ -164,6 +164,7 @@ Analytics interface built with Streamlit and Plotly:
 ## Challenges & Solutions
 
 - Separating ingestion from processing improved resource utilization and fault isolation
+- Separating ingestion from processing also improved overall processing time. Since the scraper must throttle requests to avoid bot detection (30–60 minutes per article), decoupling allows parsing and analysis of already-collected data in under 20 minutes for batch processing.
 - `processed` flags made the pipeline safe to re-run after failures
 - Local LLM inference (Ollama) reduced costs and provided acceptable latency
 - Japanese-specific BERT model outperformed general multilingual models
