@@ -20,7 +20,7 @@ Data source: https://news.yahoo.co.jp/
 
 ## Dashboard
 
-<img src="assets/dashboard_1.png" width="900">
+<img src="assets/dashboard_1.1.png" width="900">
 <img src="assets/dashboard_2.png" width="900">
 <img src="assets/dashboard_3.png" width="900">
 
