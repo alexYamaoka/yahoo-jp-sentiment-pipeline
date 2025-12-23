@@ -15,6 +15,8 @@ Data source: https://news.yahoo.co.jp/
 - Categorizes articles into 10 topics using local LLM (Ollama)
 - Aggregates sentiment statistics and engagement metrics by category
 - Visualizes sentiment distributions and trends through dashboard
+  * most positively received category: Sports 42.17% positive
+  * most negatively received catevory: International Relations 37.39% negative
 
 ---
 
