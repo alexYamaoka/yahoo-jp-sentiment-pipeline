@@ -1,15 +1,15 @@
-# Yahoo Japan User Sentiment Analysis Pipeline
+# Japan News User Sentiment Analysis Pipeline
 
-A pipeline that scrapes Yahoo Japan news articles and user comments, performs Japanese-language sentiment analysis on user comments and JP -> EN translation and summarization of articles, and visualizes sentiment distributions across news categories through a Streamlit dashboard. 
+A pipeline that scrapes Japan news articles and user comments, performs Japanese-language sentiment analysis on user comments and JP -> EN translation and summarization of articles, and visualizes sentiment distributions across news categories through a Streamlit dashboard. 
 
 Over 600+ articles and 250,000+ user comments processed and analyzed using Transformer Models from Hugging Face and Ollama.
 
-Data source: https://news.yahoo.co.jp/
+
 
 
 ### What the Pipeline Does
 
-- Automatically scrapes Yahoo Japan news articles and user comments every 4 hours
+- Automatically scrapes Japan news articles and user comments every 4 hours
 - Classifies sentiment on Japanese user comments (positive/negative/neutral) using a Japanese-pretrained BERT classifier
 - Translates articles JP to EN and generates summaries
 - Categorizes articles into 10 topics using local LLM (Ollama)
@@ -28,7 +28,7 @@ Data source: https://news.yahoo.co.jp/
 
 ---
 
-## Yahoo Japan Site
+## Japan News Site
 - Article
 <img src="assets/yahoojp_1.png" width="400">
 
